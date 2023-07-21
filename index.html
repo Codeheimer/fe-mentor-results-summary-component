@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css">
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div id="main-card">
+      <div id="overall-score">
+        <div id="your-result" class="light">Your Result</div>
+        <div id="circle-score">
+          <div class="score extra-bold">76</div>
+          <div id="out-of-100" class="light">of 100</div>
+        </div>
+
+        <div id="score-other-info">
+          <div id="word-score" class="bold">Great</div>
+          <div id="score-info" class="light">
+            You scored higher than 65% of the people who have taken these tests.
+          </div>
+        </div>
+      </div>
+      <div id="summary-score">
+        <div id="summary" class="extra-bold">Summary</div>
+        <div id="summary-breakdown">
+          <div class="summary-card memory">
+            <div class="memory-font category">
+              <img src="assets/images/icon-memory.svg" alt="memory"><span class="category-name">Memory</span>
+            </div> 
+            <div>
+              80 / <span class="light">100</span>
+            </div>
+          </div>
+          <div class="summary-card">Reaction 92 / <span class="light">100</span></div>
+          <div class="summary-card">Verbal 61 / <span class="light">100</span></div>
+          <div class="summary-card">Visual 72 / <span class="light">100</span></div>
+        </div>
+        <div id="continue"><button class="bold">Continue</button></div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
